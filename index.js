@@ -1,14 +1,14 @@
 
 gsap.from('.name' , {duration: .5, x: '-30rem' , rotate:450 ,opacity:0 })
-gsap.to('.name' , {duration: 1, y:'4rem'   ,opacity:1 })
-gsap.from('body' , {duration: 2, y:'2rem',rotate:90   })
-gsap.to('body' , {duration: 1,delay:2, y:'2rem'   })
+gsap.to('.name' , {duration: 1, y:'2rem'   ,opacity:1 })
 gsap.from('.day' , {duration: 1, x: '-100rem' })
 gsap.from('.min' , {delay:1.3, duration: 1, x: '-300rem' })
 gsap.from('.hour' , {delay:1, duration: 1, x: '-300rem' })
 gsap.from('.sec' , { delay:1.5 ,duration: 1, x: '-300rem' })
 gsap.from('.title' , { delay:2.5 ,duration: 1, y: '-300rem',rotate:1000  })
 gsap.from('.btn' , { delay:2.5 ,duration: 3, y: '-3rem',opacity:0  })
+
+
 
 
 //inputting my own exam date
