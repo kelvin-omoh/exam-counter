@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow: hidden;
+    margin: 5rem auto;
+    background: linear-gradient( rgb(125, 22, 22), black) ;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    transition:  2s ease-in-out;
+    justify-content: center;
+    font-size: 4rem;
+    color: aliceblue;
+}
+.title{
+    position: absolute;
+    bottom: 0px;
+    font-size: 2rem;
+    color: rgb(192, 129, 35);
+    border: 1px solid white;padding: .5rem;
+}
+.name{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: .8rem;
+    font-size: 2.3rem;
+    color: rgb(174, 174, 174);
+    transition: 2s all ease;
+    animation:  namechange 2s infinite;
+    
+}
+@keyframes namechange {
+    30%{
+
+        text-shadow: 1px 2px 3px  rgb(140, 0, 255);
+    }
+    40%{
+        text-shadow: 1px 2px 3px rgb(18, 19, 18);
+    }
+    80%{
+        text-shadow: 1px 2px 3px rgb(0, 255, 0);
+    }
+    100%{
+        text-shadow: 1px 2px 3px  rgb(0, 76, 255);
+    }
+    
+}
+.ex-date{
+display: none;
+}
+@media (max-width:760px){
+    .container{
+        overflow: hidden;
+        font-size: 1.1rem;
+      
+    }
+    
+ body{
+     overflow: hidden;
+ }
+    .title{
+        position: fixed;
+        font-size: .9rem;
+        margin-left: -20%;
+        bottom: 12rem;
+    }
+}
