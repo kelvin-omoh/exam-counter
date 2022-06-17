@@ -27,7 +27,7 @@ body{
     border: 1px solid white;padding: .5rem;
 }
 .name{
-    position: absolute;
+    position:fixed;
     top: 0px;
     left: 0px;
     margin: .8rem;
