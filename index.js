@@ -44,7 +44,7 @@ var countDownDate= new Date("July 4 , 2022  00:00:00");
          var dayhour=date.getHours(); 
          var countDownhour=countDownDate.getHours()
          //the below formula  for hour is (time left / (1000*60*60)* 24))------------
-         var hour=document.querySelector(".hour").textContent= (Math.floor((Math.floor(timeleft /(1000*60*60*24))*24))-dayhour)+"hour/";
+         var hour=document.querySelector(".hour").textContent= (Math.floor((Math.floor(timeleft /(1000*60*60*24))*24)))+"hour/";
         
         
         
