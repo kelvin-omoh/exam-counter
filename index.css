@@ -70,6 +70,7 @@ display: none;
         position: fixed;
         font-size: .9rem;
         margin-left: -20%;
+        margin-bottom: 3rem
         bottom: 12rem;
     }
 }
