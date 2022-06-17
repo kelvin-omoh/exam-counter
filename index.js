@@ -1,6 +1,6 @@
 
 gsap.from('.name' , {duration: .5, x: '-30rem' , rotate:450 ,opacity:0 })
-gsap.to('.name' , {duration: 1, y:'2rem'   ,opacity:1 })
+gsap.to('.name' , {duration: 1, y:'-3rem'   ,opacity:1 })
 gsap.from('.day' , {duration: 1, x: '-100rem' })
 gsap.from('.min' , {delay:1.3, duration: 1, x: '-300rem' })
 gsap.from('.hour' , {delay:1, duration: 1, x: '-300rem' })
