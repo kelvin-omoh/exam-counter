@@ -26,7 +26,7 @@ var countDownDate= new Date("July 4 , 2022  00:00:00");
         var countDownDay = countDownDate.getDate();
 
         //the below formula for days is (time left / (1000*24*60*60))------------
-        var presentday=document.querySelector(".day").textContent=  "-" + Math.floor(timeleft / (1000*60*60*24)) +"day/";
+        var presentday=document.querySelector(".day").textContent=   Math.floor(timeleft / (1000*60*60*24)) +"day/";
         
 
 
@@ -35,7 +35,7 @@ var countDownDate= new Date("July 4 , 2022  00:00:00");
         var countDownmin = countDownDate.getMinutes();
         //the below formula  for minutes is (time left % (1000*60*60)/(1000*60))------------
         
-         var min=document.querySelector(".min").textContent=  "-" + (Math.floor((Math.floor(timeleft%(1000*24*60*60))/(60*1000))))+"min/";
+         var min=document.querySelector(".min").textContent=   (Math.floor((Math.floor(timeleft%(1000*24*60*60))/(60*1000))))+"min/";
        
 
 
@@ -51,7 +51,7 @@ var countDownDate= new Date("July 4 , 2022  00:00:00");
          //get day sec
          var daysec=date.getSeconds();
          //the below formula  for minutes is (time left % (1000*60*60*24)/(1000))------------
-         var sec=document.querySelector(".sec").textContent= daysec- Math.floor(((timeleft%(1000*60*60*24))/1000)) +"sec";
+         var sec=document.querySelector(".sec").textContent=  Math.floor(((timeleft%(1000*60*60*24))/1000)) +"sec";
     
       if((timeleft<=0)){
           var examday=document.querySelector(".ex-date");
